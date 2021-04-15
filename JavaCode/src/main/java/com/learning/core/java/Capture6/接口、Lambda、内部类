@@ -1,0 +1,7 @@
+# 第六章 接口，lambda表达式和内部类
+
+## 1.接口
+- 接口不能有实例字段；
+1.如果一个类实现了comparable接口，一般来说接口文档中写明的是建议与equal语法兼容，但是如果遇到BigDecimal的时候，就不会了；
+2. 可以使用instanceof来查看是某个对象是否实现了特定的接口；
+System.out.println(staff[0] instanceof Comparable);
