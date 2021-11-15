@@ -17,6 +17,15 @@ public class Apple {
         this.color = color;
     }
 
+    public Apple(Integer integer) {
+        this.weight = integer;
+    }
+
+    public Apple(String color,Integer weight){
+        this.color = color;
+        this.weight = weight;
+    }
+
     @Override
     public String toString() {
         return "Apple{" +
